@@ -1,5 +1,5 @@
 import test from 'tape'
-import Reducer from '../../lib/reducers/Reducer'
+import Reducer from '../../bin/reducers/Reducer'
 const baseReducer = new Reducer()
 
 test('getBoxXY', (t) => {
