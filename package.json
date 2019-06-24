@@ -5,7 +5,7 @@
   "main": "src/index.mjs",
   "scripts": {
     "start": "node --experimental-modules src/index.mjs",
-    "test": "test"
+    "test": "node --experimental-modules tests/unit/api.tests.mjs"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kdakshina/sudoku-js/issues"
   },
-  "homepage": "https://github.com/kdakshina/sudoku-js#readme"
+  "homepage": "https://github.com/kdakshina/sudoku-js#readme",
+  "dependencies": {
+    "tape": "^4.10.2"
+  }
 }
