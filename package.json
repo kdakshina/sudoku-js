@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node build/bin/index.js",
-    "watch": "babel lib --out-dir build/bin --source-maps && babel tests --out-dir build/tests --source-maps --watch",
+    "watch": "babel lib --out-dir build/bin --source-maps --watch && babel tests --out-dir build/tests --source-maps --watch",
     "build": "babel lib --out-dir build/bin --source-maps && babel tests --out-dir build/tests --source-maps",
     "test": "node build/tests/unit/api.tests.js"
   },
