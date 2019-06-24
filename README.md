@@ -1,5 +1,5 @@
 # sudoku-js
-A sudoku solver program written in javascript.  This program take sudoku problem inputs in 2D json array format aka 'board' and iteratively solves the board. Currently there are only two reductions are implemented and more reductions to be implemented.
+A sudoku solver program written in javascript.  This program take sudoku problem inputs in 2D json array format aka 'board' and iteratively solves the board. Currently there are only a few basic reducers are implemented and more to be implemented in future.
 
 ## Data Structures
 Name | Type | Description
@@ -10,11 +10,14 @@ Name | Type | Description
 ## Reducers
 Reducer reduces options from unresolved cells and paves way solving the board.  Based on the complexity, more advanced reducers are needed to solve a board.
 
-### 1. standard options reducer (implemented)
+### 1. standard options reducer
 it reduces options form unsolved cells for a solved value in a row, columm or box
 
-### 2. single options reducer (implemented)
+### 2. single options reducer
 it resolves a single option containing cell in a row, column or box
+
+### 3. box line option reducer
+if a box row or column contains unique key(s) within the entire row of column, those options can be removed from rest of the box elements.
 
 ## Execution
 This progam is in it's early stage. 
