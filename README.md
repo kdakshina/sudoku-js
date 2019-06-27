@@ -13,8 +13,8 @@ Reducer reduces options from unresolved cells and paves way solving the board.  
 ### 1. standard options reducer
 it reduces options form unsolved cells for a solved value in a row, columm or box
 
-### 2. single options reducer
-it resolves a single option containing cell in a row, column or box
+### 2. unique options reducer
+it reduces unique option(s) (one single, two doubles, three tripples etc) from rest of the row, column or box
 
 ### 3. box line option reducer
 if a box row or column contains unique key(s) within the entire row of column, those options can be removed from rest of the box elements.
