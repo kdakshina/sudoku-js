@@ -22,7 +22,7 @@ if a box row or column contains unique key(s) within the entire row of column, t
 ### 4. naked options reducer
 any repeating options in a row, col or box (2 pairs, 3 tripples) removes those options from rest of the respectie row, col and boxes.
 
-### 4. hidden options reducer
+### 5. hidden options reducer
 any hidden options in a row, col or box removes those options from rest of the respective row, col and boxes.
 
 ## Execution
