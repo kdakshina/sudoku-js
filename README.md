@@ -19,8 +19,11 @@ it reduces unique option(s) (one single, two doubles, three tripples etc) from r
 ### 3. box line option reducer
 if a box row or column contains unique key(s) within the entire row of column, those options can be removed from rest of the box elements.
 
-### 4. naked pair options reducer
-any pair of two options in a row, col or box removes those options from respective row, col and boxes.
+### 4. naked options reducer
+any repeating options in a row, col or box (2 pairs, 3 tripples) removes those options from rest of the respectie row, col and boxes.
+
+### 4. hidden options reducer
+any hidden options in a row, col or box removes those options from rest of the respective row, col and boxes.
 
 ## Execution
 This progam is in it's early stage. 
