@@ -7,8 +7,8 @@
     "start": "node build/bin/index.js",
     "build": "babel lib --out-dir build/bin --source-maps",
     "watch": "babel lib --out-dir build/bin --source-maps --watch",
-    "test:build" : "babel tests --out-dir build/tests --source-maps",
-    "test:watch" : "babel tests --out-dir build/tests --source-maps --watch",
+    "test:build": "babel tests --out-dir build/tests --source-maps",
+    "test:watch": "babel tests --out-dir build/tests --source-maps --watch",
     "test": "node build/tests/unit/api.tests.js"
   },
   "repository": {
@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/kdakshina/sudoku-js#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
+    "log4js": "^4.4.0",
     "tape": "^4.10.2"
   },
   "devDependencies": {
