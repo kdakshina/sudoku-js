@@ -35,8 +35,3 @@ puzzle id = dir/filename  eg.  e/2, m/1, h/2
 $ npm run build
 $ npm run start  <puzzle id>
 ```
-
-## Note
-```
-* feeding inputs will be improved soon.
-```
