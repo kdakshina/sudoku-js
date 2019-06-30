@@ -22,7 +22,10 @@ if a row or column of a box contains unique key(s) within the box or entire row 
 ### 4. hidden options reducer
 any hidden options in a row, col or box removes those options from rest of the respective row, col and boxes.
 
-### 5. unique options reducer
+### 5. x-wing options reducer
+any rectangle formed with a single hidden option removes that single hidden option from rectangle's rows and columns.
+
+### 6. unique options reducer
 it reduces unique option(s) (one single, two doubles, three tripples etc) from rest of the row, column or box
 
 ## Execution
@@ -33,5 +36,5 @@ puzzle id = dir/filename  eg.  e/2, m/1, h/2
 
 ```
 $ npm run build
-$ npm run start  <puzzle id>
+$ npm run start  <puzzle id> [, <puzzle id>]
 ```
