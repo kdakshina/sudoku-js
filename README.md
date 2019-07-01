@@ -28,6 +28,9 @@ any rectangle formed with a single hidden option removes that single hidden opti
 ### 6. unique options reducer
 it reduces unique option(s) (one single, two doubles, three tripples etc) from rest of the row, column or box
 
+### 7. sword fish options reducer
+it reducess the options from a 3x3 formation aka sword fish formation.
+
 ## Execution
 There are few puzzles stored as json files under 'e' (easy) or 'm' (medium) or 'h' (ard) directories of puzzle dir. 
 Should you need to add a new puzzle add a new n.json file under any of 'e' or 'm' or 'h' dirs with puzzle data.
