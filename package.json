@@ -27,7 +27,7 @@
   "dependencies": {
     "braces": "^3.0.2",
     "fs": "0.0.1-security",
-    "log4js": "^4.4.0",
+    "log4js": "^6.4.0",
     "tape": "^4.10.2"
   },
   "devDependencies": {
